@@ -1,0 +1,34 @@
+{
+	"Deathtouch": {
+		"Type": "Static",
+		"Effect": "Any amount of damage this deals to a creature is enough to destroy it"
+	},
+	"Defender": {
+		"Type": "Static",
+		"Effect": "This creature can't attack"
+	},
+	"Double Strike": {
+		"Type" : "Static",
+		"Effect" : "This creature deals both first-strike and regular combat damage"
+	},
+	"First Strike": {
+		"Type" : "Static",
+		"Effect" : "This creature deals combat damage before creatures without first strike"
+	},
+	"Flying": {
+		"Type" : "Evasion",
+		"Effect" : "This creature can't be blocked except by creatures with flying and/or reach"
+	},
+	"Haste": {
+		"Type" : "Static",
+		"Effect" : "This creature can attack and {T} as soon as it comes under your control"
+	},
+	"Hexproof": {
+		"Type" : "Static",
+		"Effect" : "This permanent can't be the target of spells or abilities your opponents control"
+	},
+	"Indestructible": {
+		"Type" : "Static",
+		"Effect" : "Effects that say destroy don’t destroy this"
+	}
+}
