@@ -54,5 +54,21 @@
 	"Vigilance": {
 		"Type" : "Static",
 		"Effect" : "Attacking doesn't cause this creature to tap"
+	},
+	"Fear": {
+		"Type" : "Evasion",
+		"Effect" : "his creature can't be blocked except by artifact creatures and/or black creatures"
+	},
+	"Shroud": {
+		"Type" : "Static",
+		"Effect" : "This permanent or player can’t be the target of spells or abilities"
+	},
+	"Intimidate": {
+		"Type" : "Static",
+		"Effect" : "This creature can't be blocked except by artifact creatures and/or creatures that share a color with it"
+	},
+	"Landwalk": {
+		"Type" : "Evasion",
+		"Effect" : "This creature can't be blocked as long as defending player controls a [type]"
 	}
 }
