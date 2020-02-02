@@ -30,5 +30,29 @@
 	"Indestructible": {
 		"Type" : "Static",
 		"Effect" : "Effects that say destroy don’t destroy this"
+	},
+	"Lifelink": {
+		"Type" : "Static",
+		"Effect" : "Damage dealt by this creature also causes you to gain that much life"
+	},
+	"Menace": {
+		"Type" : "Evasion",
+		"Effect" : "This creature can't be blocked except by two or more creatures"
+	},
+	"Protection": {
+		"Type" : "Static",
+		"Effect" : "This can't be blocked, targeted, dealt damage, enchanted, or equipped by anything [quality]"
+	},
+	"Reach": {
+		"Type" : "Static",
+		"Effect" : "This creature can block creatures with flying"
+	},
+	"Trample": {
+		"Type" : "Static",
+		"Effect" : "This creature can deal excess combat damage to player or planeswalker it's attacking"
+	},
+	"Vigilance": {
+		"Type" : "Static",
+		"Effect" : "Attacking doesn't cause this creature to tap"
 	}
 }
