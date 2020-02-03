@@ -1,74 +1,77 @@
 {
-	"Deathtouch": {
-		"Type": "Static",
-		"Effect": "Any amount of damage this deals to a creature is enough to destroy it"
-	},
-	"Defender": {
-		"Type": "Static",
-		"Effect": "This creature can't attack"
-	},
-	"Double Strike": {
-		"Type" : "Static",
-		"Effect" : "This creature deals both first-strike and regular combat damage"
-	},
-	"First Strike": {
-		"Type" : "Static",
-		"Effect" : "This creature deals combat damage before creatures without first strike"
-	},
-	"Flying": {
-		"Type" : "Evasion",
-		"Effect" : "This creature can't be blocked except by creatures with flying and/or reach"
-	},
-	"Haste": {
-		"Type" : "Static",
-		"Effect" : "This creature can attack and {T} as soon as it comes under your control"
-	},
-	"Hexproof": {
-		"Type" : "Static",
-		"Effect" : "This permanent can't be the target of spells or abilities your opponents control"
-	},
-	"Indestructible": {
-		"Type" : "Static",
-		"Effect" : "Effects that say destroy don’t destroy this"
-	},
-	"Lifelink": {
-		"Type" : "Static",
-		"Effect" : "Damage dealt by this creature also causes you to gain that much life"
-	},
-	"Menace": {
-		"Type" : "Evasion",
-		"Effect" : "This creature can't be blocked except by two or more creatures"
-	},
-	"Protection": {
-		"Type" : "Static",
-		"Effect" : "This can't be blocked, targeted, dealt damage, enchanted, or equipped by anything [quality]"
-	},
-	"Reach": {
-		"Type" : "Static",
-		"Effect" : "This creature can block creatures with flying"
-	},
-	"Trample": {
-		"Type" : "Static",
-		"Effect" : "This creature can deal excess combat damage to player or planeswalker it's attacking"
-	},
-	"Vigilance": {
-		"Type" : "Static",
-		"Effect" : "Attacking doesn't cause this creature to tap"
-	},
-	"Fear": {
-		"Type" : "Evasion",
-		"Effect" : "his creature can't be blocked except by artifact creatures and/or black creatures"
-	},
-	"Shroud": {
-		"Type" : "Static",
-		"Effect" : "This permanent or player can’t be the target of spells or abilities"
-	},
-	"Intimidate": {
-		"Type" : "Static",
-		"Effect" : "This creature can't be blocked except by artifact creatures and/or creatures that share a color with it"
-	},
-	"Landwalk": {
-		"Type" : "Evasion",
-		"Effect" : "This creature can't be blocked as long as defending player controls a [type]"
+	"EverGreen":{
+		"Deathtouch": {
+			"Type": "Static",
+			"Effect": "Any amount of damage this deals to a creature is enough to destroy it"
+		},
+		"Defender": {
+			"Type": "Static",
+			"Effect": "This creature can't attack"
+		},
+		"Double Strike": {
+			"Type" : "Static",
+			"Effect" : "This creature deals both first-strike and regular combat damage"
+		},
+		"First Strike": {
+			"Type" : "Static",
+			"Effect" : "This creature deals combat damage before creatures without first strike"
+		},
+		"Flying": {
+			"Type" : "Evasion",
+			"Effect" : "This creature can't be blocked except by creatures with flying and/or reach"
+		},
+		"Haste": {
+			"Type" : "Static",
+			"Effect" : "This creature can attack and {T} as soon as it comes under your control"
+		},
+		"Hexproof": {
+			"Type" : "Static",
+			"Effect" : "This permanent can't be the target of spells or abilities your opponents control"
+		},
+		"Indestructible": {
+			"Type" : "Static",
+			"Effect" : "Effects that say destroy don’t destroy this"
+		},
+		"Lifelink": {
+			"Type" : "Static",
+			"Effect" : "Damage dealt by this creature also causes you to gain that much life"
+		},
+		"Menace": {
+			"Type" : "Evasion",
+			"Effect" : "This creature can't be blocked except by two or more creatures"
+		},
+		"Protection": {
+			"Type" : "Static",
+			"Effect" : "This can't be blocked, targeted, dealt damage, enchanted, or equipped by anything [quality]"
+		},
+		"Reach": {
+			"Type" : "Static",
+			"Effect" : "This creature can block creatures with flying"
+		},
+		"Trample": {
+			"Type" : "Static",
+			"Effect" : "This creature can deal excess combat damage to player or planeswalker it's attacking"
+		},
+		"Vigilance": {
+			"Type" : "Static",
+			"Effect" : "Attacking doesn't cause this creature to tap"
+		},
+		"Fear": {
+			"Type" : "Evasion",
+			"Effect" : "This creature can't be blocked except by artifact creatures and/or black creatures"
+		},
+		"Shroud": {
+			"Type" : "Static",
+			"Effect" : "This permanent or player can’t be the target of spells or abilities"
+		},
+		"Intimidate": {
+			"Type" : "Static",
+			"Effect" : "This creature can't be blocked except by artifact creatures and/or creatures that share a color with it"
+		},
+		"Landwalk": {
+			"Type" : "Evasion",
+			"Modifiers" : "Land Type",
+			"Effect" : "This creature can't be blocked as long as defending player controls a [type]"
+		}
 	}
 }
